@@ -1,7 +1,10 @@
 # Tweet_Collector
+
+## Synopsis
 Python script that uses Tweepy and Twitter API to collect tweets.<br>
 This project was done as a part of the CSE 535 course on Information Retrieval at SUNY Buffalo.
 
+## Usage
 Current configuration of the script is as follows:
 <p>1. In one go, the Twitter API returns at the most 100 tweets. Currently this script is configured to query the API 10 times, thus returning around 1000 tweets. By changing the 'max_iter' and 'count' parameters in the script, it can be configured to gather as many tweets as required.</p>
 
@@ -16,3 +19,12 @@ Current configuration of the script is as follows:
 	iv. URL of the tweet
 	v. ID of the tweet
 	vi. Hashtags in the tweet (if any)
+
+After making any desired modifications, the above script can simply be executed from the command line as shown below.
+```sh
+python tweet_collector.py
+```
+
+## Useful Links
+[Tweepy](http://www.tweepy.org/)<br>
+[Twitter Search API](https://developer.twitter.com/en/docs/tweets/search/overview)
